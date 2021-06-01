@@ -4,10 +4,9 @@ import {SidebarContainer,
         CloseIcon,
         SidebarLink,
         SidebarMenu,
-        SidebarRoute,
-        SidebarWrapper,
-        SideBtnWrap
-
+        SidebarWrapper
+        // SideBtnWrap
+        // SidebarRoute,
 } from "./SidebarElements";
 
 const Sidebar = ({isOpen, toggle}) => {
@@ -27,15 +26,15 @@ const Sidebar = ({isOpen, toggle}) => {
                         <SidebarLink to="seeMore">
                             More
                         </SidebarLink>
-                        <SidebarLink to="signup">
-                            Sign Up
-                        </SidebarLink>
+                    {/*    <SidebarLink to="signup">*/}
+                    {/*        Sign Up*/}
+                    {/*    </SidebarLink>*/}
                     </SidebarMenu>
-                    <SideBtnWrap>
-                        <SidebarRoute to="/signin">
-                            Sign In
-                        </SidebarRoute>
-                    </SideBtnWrap>
+                    {/*<SideBtnWrap>*/}
+                    {/*    <SidebarRoute to="/signin">*/}
+                    {/*        Sign In*/}
+                    {/*    </SidebarRoute>*/}
+                    {/*</SideBtnWrap>*/}
                 </SidebarWrapper>
         </SidebarContainer>
     );

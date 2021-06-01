@@ -34,7 +34,17 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1>Ivson Soares Website</HeroH1>
                 <HeroBtnWrapper>
-                    <Button to="/projects" onMouseEnter={onHover} onMouseLeave={onHover}>
+                    <Button to="projects"
+                            onMouseEnter={onHover}
+                            onMouseLeave={onHover}
+                            primary='true'
+                            dark='true'
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}
+                    >
                         Projects {hover ?<ArrowForward/>: <ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>
