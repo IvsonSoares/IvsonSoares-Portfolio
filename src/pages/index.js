@@ -6,6 +6,7 @@ import InfoSection from "../components/InfoSection";
 import {homeObjOne, homeObjTwo} from "../components/InfoSection/data";
 import Projects from "../components/Projects";
 import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 
 
 const Home = () => {

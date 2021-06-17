@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
-import {FaBars} from 'react-icons/fa'
+import {FaBars} from 'react-icons/fa';
 import {IconContext} from "react-icons/lib";
-import {animateScroll as scroll} from 'react-scroll'
+import {animateScroll as scroll} from 'react-scroll';
 import {
     Nav,
     NavbarContainer,
@@ -38,7 +38,7 @@ const Navbar = ({toggle}) => {
         <IconContext.Provider value={{ color: '#fff'}}>
           <Nav scrollNav={scrollNav}>
               <NavbarContainer>
-                  <NavLogo to="/" onClick={toggleHome}>Home</NavLogo>
+                  <NavLogo to="/" onClick={toggleHome}>Home<i className="fas fa-home"></i></NavLogo>
                   <MobileIcon onClick={toggle}>
                       <FaBars />
                   </MobileIcon>
@@ -61,7 +61,7 @@ const Navbar = ({toggle}) => {
                            offset={-80}
                           >Projects</NavLinks>
                       </NavItem>
-                          <NavItem>
+                      <NavItem>
                           <NavLinks to="seeMore"
                           smooth={true}
                            duration={500}

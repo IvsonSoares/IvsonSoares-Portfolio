@@ -32,7 +32,7 @@ const HeroSection = () => {
                 <HeroParticles />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Ivson Soares Website</HeroH1>
+                <HeroH1>Ivson Soares Building...</HeroH1>
                 <HeroBtnWrapper>
                     <Button to="projects"
                             onMouseEnter={onHover}

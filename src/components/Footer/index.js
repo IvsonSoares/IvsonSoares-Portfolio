@@ -12,8 +12,8 @@ import {FooterWrap,
     SocialLogo,
     SocialMedia,
     SocialMediaWrap,
-    SocialIconLink,
-    WebsiteRights
+    SocialIconLink
+    // WebsiteRights
 
 } from "./FooterElements";
 
@@ -26,31 +26,8 @@ const Footer = () => {
         <FooterContainer>
             <FooterWrap>
                 {/*<FooterLinksContainer>*/}
-                {/*    <FooterLinksWrapper>*/}
-                {/*        <FooterLinkItems>*/}
-                {/*            <FooterLinkTitle> Social Media</FooterLinkTitle>*/}
-                {/*                <FooterLink to="/signin">Instagram</FooterLink>*/}
-                {/*                <FooterLink to="/signin">Facebook</FooterLink>*/}
-                {/*                <FooterLink to="/signin">Linkedin</FooterLink>*/}
-                {/*                <FooterLink to="/signin">GitHub</FooterLink>*/}
-                {/*        </FooterLinkItems>*/}
-                {/*        <FooterLinkItems>*/}
-                {/*            <FooterLinkTitle> About Us</FooterLinkTitle>*/}
-                {/*                <FooterLink to="/signin">How it works</FooterLink>*/}
-                {/*                <FooterLink to="/signin">Testimonials</FooterLink>*/}
-                {/*                <FooterLink to="/signin">Investors</FooterLink>*/}
-                {/*                <FooterLink to="/signin">Terms of services</FooterLink>*/}
-                {/*        </FooterLinkItems>*/}
-                {/*    </FooterLinksWrapper>*/}
-                {/*        <FooterLinksWrapper>*/}
-                {/*        <FooterLinkItems>*/}
-                {/*            <FooterLinkTitle> About Us</FooterLinkTitle>*/}
-                {/*                <FooterLink to="/signin">How it works</FooterLink>*/}
-                {/*                <FooterLink to="/signin">Testimonials</FooterLink>*/}
-                {/*                <FooterLink to="/signin">Investors</FooterLink>*/}
-                {/*                <FooterLink to="/signin">Terms of services</FooterLink>*/}
-                {/*        </FooterLinkItems>*/}
-                {/*        <FooterLinkItems>*/}
+               {/*        <FooterLinksWrapper>*/}
+                    {/*        <FooterLinkItems>*/}
                 {/*            <FooterLinkTitle> About Us</FooterLinkTitle>*/}
                 {/*                <FooterLink to="/signin">How it works</FooterLink>*/}
                 {/*                <FooterLink to="/signin">Testimonials</FooterLink>*/}
@@ -64,7 +41,7 @@ const Footer = () => {
                         <SocialLogo to="/" onClick={scrollTop}>
                             Home
                         </SocialLogo>
-                        <WebsiteRights>Portfolio </WebsiteRights>
+                        {/*<WebsiteRights>Portfolio </WebsiteRights>*/}
                         <SocialIcons>
                            <SocialIconLink href="//www.facebook.com/ivson.soares.98" target="_blank"
                             aria-label="Facebook">

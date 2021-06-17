@@ -24,7 +24,7 @@ export const HeroContainer = styled.div`
     180deg, 
     rgba(0,0,0,0.2) 0%,
     rgba(0,0,0,0.6) 100%),
-    liner-gradient(180deg, rgba(0,0,0,0.2) 0%,
+    linear-gradient(180deg, rgba(0,0,0,0.2) 0%,
     transparent 100%);
     z-index: 2;
   }

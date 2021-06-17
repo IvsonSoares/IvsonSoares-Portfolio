@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   margin-top: -80px;
   display: flex;
   justify-content: center;
-  align-item: center;
+  align-items: center;
   font-size: 1rem;
   position: sticky;
   top: 0;
@@ -83,7 +83,7 @@ export const NavLinks = styled(LinkS)`
   height: 100%;
   cursor: pointer;
   
-  &.active {
+  &:active {
     border-bottom: 3px solid #8532a8;
   }
 `;
