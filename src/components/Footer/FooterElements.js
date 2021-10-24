@@ -46,7 +46,7 @@ export const SocialLogo = styled(Link)`
   font-weight: bold;
 
   &:hover {
-    color: #8532a8;
+    border-bottom: 3px solid #8532a8;
   }
 `;
 

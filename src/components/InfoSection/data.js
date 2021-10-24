@@ -1,4 +1,25 @@
 export const homeObjOne =  {
+    id: '/react-website/',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'About me',
+    headline: 'Computer Science Student',
+    description:  ' Born in 1994. Raised in a small town in Brazil. ' +  
+                  ' As a brazilian ex-marine I learnt to do all I can in every single situation ' +
+                  ' and as a Quality Manager I have been eager solving problems with Systemic Thinking. ' +
+                  ' There are many things that I would like to see and to experience, that is the reason I will become ' +
+                  ' a great Computer Scientist. ',
+    imgStart: true,
+    image: require('../../images/profile.jpg').default,
+    alt: 'Profile',
+    dark: true,
+    dark2: true,
+    primary: true,
+    darkText: false
+};
+
+export const homeObjTwo =  {
     id: 'about',
     lightBg: false,
     lightText: true,
@@ -16,7 +37,7 @@ export const homeObjOne =  {
     darkText: false
 };
 
-export const homeObjTwo =  {
+export const homeObjThree =  {
     id: 'seeMore',
     lightBg: false,
     lightText: true,
@@ -33,7 +54,7 @@ export const homeObjTwo =  {
     darkText: false
 };
 
-export const homeObjThree =  {
+export const homeObjFour =  {
     id: 'My Projects',
     lightBg: false,
     lightText: true,
@@ -46,3 +67,5 @@ export const homeObjThree =  {
     primary: true,
     darkText: false
 };
+
+
