@@ -5,6 +5,7 @@ export const ProjectsContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 100px;
   align-items: center;
   background: #010606;
   
@@ -17,10 +18,29 @@ export const ProjectsContainer = styled.div`
   }  
 `;
 
+export const ProjectsInfoContainer = styled.div`
+color: #fff;
+  background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+  @media screen and (max-width: 760px) {
+  }
+`;
+
+export const ProjectsInfoWrapper = styled.div`
+display: grid;
+z-index: 1;
+height: 350px;
+width: 100%;
+max-width: 1100px;
+margin-right: auto;
+margin-left: auto;
+//padding: 0 24px;
+justify-content: left;     
+`;
+
 export const ProjectsH1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
-  margin-bottom: 64px;
+  margin-top: 64px;
   
   @media screen and (max-width: 480px) {
     font-size: 2rem; 

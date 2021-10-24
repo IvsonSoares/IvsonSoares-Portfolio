@@ -9,9 +9,7 @@ import {
     MobileIcon,
     NavMenu,
     NavItem,
-    NavLinks,
-    //NavBtnLink
-    // NavBtn,
+    NavLinks
 } from "./NavbarElements";
 
 
@@ -38,7 +36,7 @@ const Navbar = ({toggle}) => {
         <IconContext.Provider value={{ color: '#fff'}}>
           <Nav scrollNav={scrollNav}>
               <NavbarContainer>
-                  <NavLogo to="/" onClick={toggleHome}>Home<i className="fas fa-home"></i></NavLogo>
+                  <NavLogo to="/react-website/" onClick={toggleHome}><i className="fas fa-home"></i></NavLogo>
                   <MobileIcon onClick={toggle}>
                       <FaBars />
                   </MobileIcon>
@@ -53,7 +51,7 @@ const Navbar = ({toggle}) => {
                           >About</NavLinks>
                       </NavItem>
                       <NavItem>
-                          <NavLinks to="projects"
+                          <NavLinks to="My Projects"
                           smooth={true}
                            duration={500}
                            spy={true}
@@ -68,12 +66,9 @@ const Navbar = ({toggle}) => {
                            spy={true}
                            exact='true'
                            offset={-80}
-                          >More</NavLinks>
+                          >Goals</NavLinks>
                       </NavItem>
                   </NavMenu>
-                  {/*<NavBtn>*/}
-                  {/*    <NavBtnLink to="/sign" >Sign In</NavBtnLink>*/}
-                  {/*</NavBtn>*/}
               </NavbarContainer>
           </Nav>
         </IconContext.Provider>
