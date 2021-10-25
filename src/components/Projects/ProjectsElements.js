@@ -19,22 +19,45 @@ export const ProjectsContainer = styled.div`
 `;
 
 export const ProjectsInfoContainer = styled.div`
-color: #fff;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 100px;
+  align-items: center;
+  color: #fff;
   background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
-  @media screen and (max-width: 760px) {
+
+  @media screen and (max-width: 1080px) {
+   height: 600px;
+   padding-bottom: 100px;
+
   }
+
+  @media screen and (max-width: 760px) {
+   height: 1100px;
+   padding-bottom: 600px;
+
+  }
+  
+  @media screen and (max-width: 480px) {
+   height: 1300px;
+   padding-bottom: 800px;
+
+  }  
+
 `;
 
 export const ProjectsInfoWrapper = styled.div`
-display: grid;
+display: flex;
 z-index: 1;
 height: 350px;
 width: 100%;
 max-width: 1100px;
 margin-right: auto;
 margin-left: auto;
-//padding: 0 24px;
-justify-content: left;     
+justify-content: left;
+
 `;
 
 export const ProjectsH1 = styled.h1`

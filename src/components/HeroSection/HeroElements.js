@@ -10,23 +10,23 @@ export const HeroContainer = styled.div`
   padding-top: 200px;
   height: 800px;
   position: relative;
-  z-index: 1;
-  
-  :before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background: liner-gradient(
-    180deg, 
-    rgba(0,0,0,0.2) 0%,
-    rgba(0,0,0,0.6) 100%),
-    linear-gradient(180deg, rgba(0,0,0,0.2) 0%,
-    transparent 100%);
-    z-index: 2;
-  }
+  z-index: 2;
+
+  :before{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: linear-gradient(
+            180deg,
+            rgba(0,0,0,0.4) 0%,
+            rgba(0,0,0,0.6) 100%),
+            linear-gradient(180deg, rgba(0,0,0,0.7) 100%,
+            transparent 50%);
+            z-index: 0;
+    }
 `
 
 export const HeroBg = styled.div`
@@ -38,6 +38,7 @@ export const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
+  z-index: -1;
 `
 
 export const HeroH1 = styled.h1`
@@ -78,6 +79,16 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
   width: 80%;
   margin: 0 0 10px 0;
-  border-radius: 35%;
+  border-radius: 40%;
   padding-right: 0;
+  border: 3px solid #8532b8;
 `;
+
+export const Video = styled.video`
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding-right: 0;
+  z-index: -1;
+ 
+`;
+

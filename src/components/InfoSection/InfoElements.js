@@ -17,7 +17,9 @@ export const InfoWrapper = styled.div`
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px 200px;
-  justify-content: center;     
+  justify-content: center;
+
+
 `;
 
 export const InfoRow = styled.div`
