@@ -71,7 +71,7 @@ const Projects = ({id,
                         <ProjectsP>Try it</ProjectsP>
                     </ProjectsCard>
                     <ProjectsCard>
-                        <ProjectsIconLink href="//ivsonsoares.github.io/IvsonSoares/PetShop-react/" target="_blank">
+                        <ProjectsIconLink href="//ivsonsoares.github.com/IvsonSoares/PetShop-react/" target="_blank">
                         <ProjectsIcon src={Icon3}/>
                         </ProjectsIconLink>
                         <ProjectsH2>PetShop React.Js</ProjectsH2>
@@ -79,7 +79,7 @@ const Projects = ({id,
                     </ProjectsCard>
 
                     <ProjectsCard>
-                        <ProjectsIconLink href="//ivsonsoares.github.io/IvsonSoares/Pendulo_de_Newton_Pov-ray/" target="_blank">
+                        <ProjectsIconLink href="//ivsonsoares.github.com/IvsonSoares/Pendulo_de_Newton_Pov-ray/" target="_blank">
                         <ProjectsIcon src={Icon4}/>
                         </ProjectsIconLink>
                         <ProjectsH2>Pendulo de Newton Pov-Ray</ProjectsH2>
@@ -87,7 +87,7 @@ const Projects = ({id,
                     </ProjectsCard>
 
                     <ProjectsCard>
-                        <ProjectsIconLink href="//ivsonsoares.github.io/IvsonSoares/Simple_Calculator_Python/" target="_blank">
+                        <ProjectsIconLink href="//ivsonsoares.github.com/IvsonSoares/Simple_Calculator_Python/" target="_blank">
                         <ProjectsIcon src={Icon5}/>
                         </ProjectsIconLink>
                         <ProjectsH2>Simple Python Calculator</ProjectsH2>
@@ -103,7 +103,7 @@ const Projects = ({id,
                     </ProjectsCard>
 
                     <ProjectsCard>
-                        <ProjectsIconLink href="//ivsonsoares.github.io/IvsonSoares/TwintAnalyzer/" target="_blank">
+                        <ProjectsIconLink href="//ivsonsoares.github.com/IvsonSoares/TwintAnalyzer/" target="_blank">
                         <ProjectsIcon src={Icon7}/>
                         </ProjectsIconLink>
                         <ProjectsH2>Data Analysis with Python</ProjectsH2>
@@ -111,7 +111,7 @@ const Projects = ({id,
                     </ProjectsCard>
 
                     <ProjectsCard>
-                        <ProjectsIconLink href="//ivsonsoares.github.io/IvsonSoares/WeatherApp/" target="_blank">
+                        <ProjectsIconLink href="//ivsonsoares.github.com/IvsonSoares/WeatherApp/" target="_blank">
                         <ProjectsIcon src={Icon8}/>
                         </ProjectsIconLink>
                         <ProjectsH2>Weather App in Vue.js</ProjectsH2>
