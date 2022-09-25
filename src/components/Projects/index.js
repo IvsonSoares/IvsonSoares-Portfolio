@@ -7,6 +7,10 @@ import Icon5 from '../../images/calculator.png'
 import Icon6 from '../../images/systemJava.png'
 import Icon7 from '../../images/twint.png'
 import Icon8 from '../../images/weatherVue.png'
+import Icon9 from '../../images/ford.png'
+import Icon10 from '../../images/aluraBarber.png'
+
+
 
 import {
     InfoRow,
@@ -116,6 +120,22 @@ const Projects = ({id,
                         </ProjectsIconLink>
                         <ProjectsH2>Weather App in Vue.js</ProjectsH2>
                         <ProjectsP>Repository</ProjectsP>
+                    </ProjectsCard>
+
+                    <ProjectsCard>
+                        <ProjectsIconLink href="//ivsonsoares.github.io/jsFord/" target="_blank">
+                        <ProjectsIcon src={Icon9}/>
+                        </ProjectsIconLink>
+                        <ProjectsH2>Ford Page</ProjectsH2>
+                        <ProjectsP>Try it</ProjectsP>
+                    </ProjectsCard>
+
+                    <ProjectsCard>
+                        <ProjectsIconLink href="//ivsonsoares.github.io/Barbearia_alura/" target="_blank">
+                        <ProjectsIcon src={Icon10}/>
+                        </ProjectsIconLink>
+                        <ProjectsH2>Alura BarberShop Page</ProjectsH2>
+                        <ProjectsP>Try it</ProjectsP>
                     </ProjectsCard>
                 </ProjectsWrapper>
             </ProjectsContainer>
