@@ -3,7 +3,12 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
-import {homeObjOne, homeObjTwo, homeObjThree, homeObjFour} from "../components/InfoSection/data";
+import {homeObjOne, 
+        homeObjTwo, 
+        homeObjThree, 
+        homeObjFour
+    } 
+from "../components/InfoSection/data";
 import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 
